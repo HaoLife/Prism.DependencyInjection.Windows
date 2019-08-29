@@ -6,3 +6,5 @@
 .vs
 .vscode
 **/*.rsa
+**/*.nupkg
+build/lib/

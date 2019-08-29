@@ -2,12 +2,23 @@
 
   <PropertyGroup>
     <TargetFrameworks>netstandard2.0;xamarinios10;monoandroid80;uap10.0.16299</TargetFrameworks>
+    <!--<TargetFrameworks>monoandroid80</TargetFrameworks>-->
     <PackageTags>prism;win10;mvvm;uwp;uno;</PackageTags>
     <PackageId>Rainbow.Prism.DependencyInjection.Windows</PackageId>
+    <Version>7.1.0-pre.4</Version>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="Uno.Prism.Windows" Version="7.1.0-pre.4" />
     <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="2.0.0" />
+  </ItemGroup>
+
+  <!--<ItemGroup Condition=" '$(TargetFramework)' == 'MonoAndroid80' or '$(TargetFramework)' == 'xamarinios10' or '$(TargetFramework)' == 'netstandard2.0' ">
+    <PackageReference Include="Uno.UI" Version="1.40.0" />
+  </ItemGroup>-->
+
+
+  <ItemGroup Condition=" $(TargetFramework.StartsWith('MonoAndroid')) ">
+    <AndroidResource Include="Resources\**\*.xml" />
   </ItemGroup>
 </Project>
