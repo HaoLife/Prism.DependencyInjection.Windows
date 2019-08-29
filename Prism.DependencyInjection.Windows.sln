@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29215.179
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{04B8F806-94CA-49C5-8690-9AEF6D7C5E9C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Prism.DependencyInjection.Windows", "src\Prism.DependencyInjection.Windows\Prism.DependencyInjection.Windows.csproj", "{409583C0-AFF3-4CF2-8F36-5C30C54E57F7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "samples", "samples", "{7C6ABF0B-F725-40B6-B41D-25A89C84183A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{409583C0-AFF3-4CF2-8F36-5C30C54E57F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{409583C0-AFF3-4CF2-8F36-5C30C54E57F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{409583C0-AFF3-4CF2-8F36-5C30C54E57F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{409583C0-AFF3-4CF2-8F36-5C30C54E57F7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{409583C0-AFF3-4CF2-8F36-5C30C54E57F7} = {04B8F806-94CA-49C5-8690-9AEF6D7C5E9C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B34FF968-D091-4B42-9617-59FB9FA9A571}
+	EndGlobalSection
+EndGlobal

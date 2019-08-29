@@ -1,0 +1,8 @@
+**/packages
+**/bin
+**/obj
+**/*.csproj.user
+**/*.userprefs
+.vs
+.vscode
+**/*.rsa
