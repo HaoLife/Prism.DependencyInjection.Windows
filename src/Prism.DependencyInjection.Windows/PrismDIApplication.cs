@@ -151,6 +151,7 @@ namespace Prism.DependencyInjection.Windows
 
             deviceGestureService.GoBackRequested += OnGoBackRequested;
             deviceGestureService.GoForwardRequested += OnGoForwardRequested;
+            deviceGestureService.UseTitleBarBackButton = true;
             ConfigureViewModelLocator();
 
             OnRegisterKnownTypesForSerialization();

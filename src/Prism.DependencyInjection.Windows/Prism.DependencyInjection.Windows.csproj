@@ -1,8 +1,8 @@
 ﻿<Project Sdk="MSBuild.Sdk.Extras/1.6.68">
 
   <PropertyGroup>
-    <TargetFrameworks>netstandard2.0;xamarinios10;monoandroid80;uap10.0.16299</TargetFrameworks>
-    <!--<TargetFrameworks>monoandroid80</TargetFrameworks>-->
+    <!--<TargetFrameworks>netstandard2.0;xamarinios10;monoandroid80;uap10.0.16299</TargetFrameworks>-->
+    <TargetFrameworks>uap10.0.16299</TargetFrameworks>
     <PackageTags>prism;win10;mvvm;uwp;uno;</PackageTags>
     <PackageId>Rainbow.Prism.DependencyInjection.Windows</PackageId>
     <Version>7.1.0-pre.4</Version>
